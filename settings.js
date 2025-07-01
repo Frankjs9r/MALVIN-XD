@@ -10,7 +10,7 @@ SESSION_ID: process.env.SESSION_ID || "malvin~lvEgVAoa#2T6mPK34ZvJepBAneOUfWldx9
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+BOT_NAME: process.env.BOT_NAME || "꧁(✿◠‿◠) Ⓐⓣ    -⃝Ⓒⓡⓘⓑ ✦-xᴅ",
 // add bot name here for menu
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
@@ -112,7 +112,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Da Frank",
     ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 
-      ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
+      ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "group", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
       AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
