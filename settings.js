@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~lvEgVAoa#2T6mPK34ZvJepBAneOUfWldx9VTvJCkcSGkUUA9o3hM",
+SESSION_ID: process.env.SESSION_ID || "malvin~xn0nBYiS#wM9qjnatwvqJ8p0leJsKSRUV-3g3Peu5sb44ycSqMg8",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "꧁(✿◠‿◠)Your Boi Frank    - ✦-xd",
+BOT_NAME: process.env.BOT_NAME || "(≧ᴗ≦)- ✦꧂)Da Boi Frank ✦-xd",
 // add bot name here for menu
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
