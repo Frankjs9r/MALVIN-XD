@@ -1,5 +1,5 @@
 /*
-Project Name : MALVIN XMD
+Project Name : Frank XMD
 Creator      : Malvin King ( Mr Lord Malvin )
 Repo         : https//github.com/kingmalvn/MALVIN-XMD
 Support      : wa.me/263714757857
@@ -20,13 +20,13 @@ malvin({
 }, 
 async (conn, mek, m, { from }) => {
     try {
-        const ownerNumber = config.OWNER_NUMBER; // Fetch owner number from config
-        const ownerName = config.OWNER_NAME;     // Fetch owner name from config
+        const ownerNumber = config.27783583068; // Fetch owner number from config
+        const ownerName = config.Da-Frank;     // Fetch owner name from config
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
-                      `FN:${ownerName}\n` +  
-                      `TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '')}:${ownerNumber}\n` + 
+                      `FN:${Da-Frank}\n` +  
+                      `TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '27783583068')}:${ownerNumber}\n` + 
                       'END:VCARD';
 
         // Send the vCard
@@ -38,18 +38,18 @@ async (conn, mek, m, { from }) => {
         });
 
         // Send the owner contact message with image and audio
-        await conn.sendMessage(from, {
+        await conn.sendMessage(from, {Da-Frank
             image: { url: 'https://files.catbox.moe/v1rf80.jpg' }, // Image URL from your request
             caption: `
 ╭┈┈❍ ᴍᴀʟᴠɪɴ xᴅ ❍
 ┊• *Here are the user details*
-┊• *ɴᴀᴍᴇ* : ${ownerName}
-┊• *ɴᴜᴍʙᴇʀ*: ${ownerNumber}
+┊• *ɴᴀᴍᴇ* : ${Da-Frank}
+┊• *ɴᴜᴍʙᴇʀ*: ${27783583068}
 ┆• *ᴠᴇʀsɪᴏɴ*: ${config.version}
 ╰┈┈┈┈┈┈┈⭘
 > © sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!`, // Display the owner's details
             contextInfo: {
-                mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
+                mentionedJid: [`${ownerNumber.replace('27783583068', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
