@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "malvin~smV1GZbL#hKYMe9Ca5vnEo1ozcby4SoPNpBUT16D_d5FyP3lpYSE",
 // add your Session Id make sure it starts with malvin~
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "(≧ᴗ≦)- ✦꧂)Da Boi Frank ✦-xd",
 // add bot name here for menu
@@ -40,8 +40,8 @@ LINK_WHITELIST: "youtube.com,github.com",
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
-      ANTI_LINK: process.env.ANTI_LINK || "true",
-// make anti link true,false for groups 
+      ANTI_LINK: process.env.ANTI_LINK || "on",
+// make anti link on,off for groups 
 
       MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
@@ -100,7 +100,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Da Frank",
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "false",
